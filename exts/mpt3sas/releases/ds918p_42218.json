@@ -4,7 +4,7 @@
   "files": [
     {
       "name": "918-2308.mpt3sas.tgz",
-      "url": "https://raw.githubusercontent.com/oceange8/redpill-tool-chain/master/exts/mpt3sas/releases/918-2308.mpt3sa.tgz",
+      "url": "https://raw.githubusercontent.com/oceange8/redpill-tool-chain/master/exts/mpt3sas/releases/918-2308.mpt3sas.tgz",
       "sha256": "c0e323f8a7df7fe3022e68ab94dad117febf86a1d4a8bba7847bada1f09e544e",
       "packed": true
     },

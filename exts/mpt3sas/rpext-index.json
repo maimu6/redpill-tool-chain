@@ -1,6 +1,6 @@
 {
   "id": "918-2308.mpt3sas",
-  "url": "raw.githubusercontent.com/oceange8/redpill-tool-chain/exts/mpt3sas/releases/rpext-index.json",
+  "url": "https://raw.githubusercontent.com/oceange8/redpill-tool-chain/exts/mpt3sas/releases/rpext-index.json",
   "info": {
     "name": "mpt3sas",
     "description": "Adds LSI2308 MPT Fusion SAS 3.0 Device Driver Support for 918",
@@ -9,6 +9,6 @@
     "help_url": "<todo>"
   },
   "releases": {
-    "ds918p_42218": "raw.githubusercontent.com/oceange8/redpill-tool-chain/exts/mpt3sas/mpt3sas/releases/ds918p_42218.json"
+    "ds918p_42218": "https://raw.githubusercontent.com/oceange8/redpill-tool-chain/exts/mpt3sas/mpt3sas/releases/ds918p_42218.json"
   }
 }

@@ -9,6 +9,6 @@
     "help_url": "<todo>"
   },
   "releases": {
-    "ds918p_42218": "https://raw.githubusercontent.com/oceange8/redpill-tool-chain/master/exts/mpt3sas/rpext-index.json"
+    "ds918p_42218": "https://raw.githubusercontent.com/oceange8/redpill-tool-chain/master/exts/mpt3sas/releases/ds918p_42218.json"
   }
 }

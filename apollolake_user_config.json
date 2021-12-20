@@ -2,10 +2,24 @@
     "extra_cmdline": {
         "pid": "0x0001",
         "vid": "0x46f4",
+        "netif_num":"2",
         "sn": "1234XXX123",
-        "mac1": "XXYYXXYYXXYY"
+        "mac1": "XXYYXXYYXXYY",
+        "mac2": "XXYYXXYYXXYZ"
     },
-    "synoinfo": {},
+    "synoinfo": {
+        "supportsystemperature": "yes",
+        "supportsystempwarning": "yes",
+        "maxdisks": "24",
+        "maxlanport": "4",
+        "usbportcfg": "0x30000",
+        "esataportcfg": "0x0",
+        "internalportcfg": "0xffff"
+    },
     "ramdisk_copy": {},
-    "extensions": []
+    "extensions": [
+        "jumkey.acpid2",
+        "pocopico.vmxnet3",
+        "pocopico.mpt3sas"
+    ]
 }

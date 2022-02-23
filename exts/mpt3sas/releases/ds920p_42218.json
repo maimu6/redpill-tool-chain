@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "pocopico.mpt3sas.tgz",
+      "url": "https://raw.githubusercontent.com/maimu6/redpill-tool-chain/master/exts/mpt3sas/releases/pocopico.mpt3sas.tgz",
+      "sha256": "c0e323f8a7df7fe3022e68ab94dad117febf86a1d4a8bba7847bada1f09e544e",
+      "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/maimu6/redpill-tool-chain/master/exts/mpt3sas/src/check-mpt3sas.sh",
+      "sha256": "dda35a6a428de55589e4e96d9de02e5911cf977dd777cb348b908ed6a165adaa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "raid_class.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mpt3sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mpt3sas.sh"
+  }
+
+}
